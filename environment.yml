@@ -1,0 +1,15 @@
+name: mm-fft-example
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - python
+  - pip
+  - pip:
+    - imageio
+    - ipympl
+    - matplotlib
+    - numpy
+    - scikit-image
+    - scipy
